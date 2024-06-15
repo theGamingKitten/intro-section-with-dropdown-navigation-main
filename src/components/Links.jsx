@@ -13,11 +13,11 @@ export default function Links() {
   return (
     <>      
     <div className="md:flex md:flex-row md:justify-between md:w-full md:items-center">
-    <div className="flex flex-col gap-4 md:flex-row md:gap-7">
+    <div className="flex flex-col gap-4 md:flex-row md:gap-14">
     <div className="relative float-right">
     <span className="hover:cursor-pointer active:text-almost-black" onClick={() => setIsFeaturesOpen(!isFeaturesOpen)}>Features <img src={`${!isFeaturesOpen ? arrowDown : arrowUp}`} alt="Toggle Features Menu"  className="inline-block ml-2"/></span>
         <div className={`${!isFeaturesOpen ? "hidden" : ""}`}>
-          <div className="relative bg-almost-white flex flex-col p-3 gap-2">
+          <div className="relative bg-almost-white flex flex-col p-3 gap-2 md:absolute md:min-w-36 md:shadow-lg">
             <a href="#"><img src={todoIcon} alt="Todo List Icon" className="w-[16px] inline-block mr-2"/> Todo List</a>
             <a href="#"><img src={calIcon} alt="Calendar Icon" className="w-[16px] inline-block mr-2"/> Calendar</a>
             <a href="#"><img src={remIcon} alt="Reminders Icon" className="w-[16px] inline-block mr-2"/> Reminders</a>
@@ -28,7 +28,7 @@ export default function Links() {
       <div className="relative float-right">
       <span className="hover:cursor-pointer active:text-almost-black" onClick={() => setIsCompanyOpen(!isCompanyOpen)}>Company <img src={`${!isCompanyOpen ? arrowDown : arrowUp}`} alt="Toggle Company Menu"  className="inline-block ml-2"/></span>
         <div className={`${!isCompanyOpen ? "hidden" : ""}`}>
-          <div className="relative bg-almost-white flex flex-col p-3 gap-2">
+          <div className="relative bg-almost-white flex flex-col p-3 gap-2 md:absolute md:min-w-36 md:shadow-lg">
             <a href="#" className="hover:cursor-pointer active:text-almost-black">History</a>
             <a href="#" className="hover:cursor-pointer active:text-almost-black">Our Team</a>
             <a href="#" className="hover:cursor-pointer active:text-almost-black">Blog</a>

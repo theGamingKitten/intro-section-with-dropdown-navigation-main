@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.jpg)
-![](./screenshot_mobile.jpg)
+![](./screenshot.png)
+![](./screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Source code](https://github.com/theGamingKitten/intro-section-with-dropdown-navigation-main)
+- [Preview](https://intro-section-with-dropdown-navigation-main-six-chi.vercel.app/)
 
 ## My process
 
@@ -70,7 +70,7 @@ const isMobile = useMediaQuery({
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3schools](https://www.w3schools.com/howto/howto_js_dropdown.asp) - For creating the dropdown
 
 ## Author
 
